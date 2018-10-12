@@ -90,6 +90,8 @@ public class ConfigHander implements WxMessageHandler{
             returnStr.append("用户ID："+Config.get(wxMessage.getFromUserName()).getOpenid()+"\n");
         } else if (content.contains("帮助")){
             returnStr.append(ResponseConst.HELP);
+        } else if (content.contains("你大爷") || content.contains("TMD") || content.contains("妈的")) {
+            returnStr.append(ResponseConst.UNCIVILIZED_LANGUAGE);
         } else {
             returnStr.append(ResponseConst.DEFAULE_TEXT);
         }

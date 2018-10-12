@@ -14,8 +14,5 @@ public class ResponseConst {
             "[帮助] -- 帮助说明 \n\n" +
             "✨✨更能功能正在添加中…… \n";
     public static final String NOT_FOUND_ANY = "没有找到任何文章，换一组吧！\uD83D\uDE25";
-
-
-
-
+    public static final String UNCIVILIZED_LANGUAGE = "请文明用语！\u2639";
 }
